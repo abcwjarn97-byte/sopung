@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>소풍 노래광장</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans KR",sans-serif;background:#0d0d0f;color:#fff}
+header{position:fixed;top:0;width:100%;z-index:10;background:rgba(13,13,15,.88);backdrop-filter:blur(10px);border-bottom:1px solid #2b2b30}
+nav{max-width:1100px;margin:auto;height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 22px}
+.logo{font-size:22px;font-weight:800;letter-spacing:-1px}.logo span{font-size:12px;color:#aaa;display:block;font-weight:400;margin-top:2px}
+nav a{color:#ddd;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{min-height:720px;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 20px 80px;background:radial-gradient(circle at 50% 35%,#49351d 0,#17130f 28%,#0d0d0f 65%)}
+.badge{display:inline-block;border:1px solid #8e7445;color:#d8bb7b;padding:8px 16px;border-radius:30px;font-size:13px;margin-bottom:22px}
+h1{font-size:clamp(44px,8vw,86px);margin:0 0 18px;letter-spacing:-4px}
+.hero p{color:#c9c9cc;font-size:18px;line-height:1.8;margin:0 auto 32px}
+.btn{display:inline-block;padding:14px 28px;border-radius:4px;background:#b8955a;color:#111;text-decoration:none;font-weight:700}
+section{max-width:1000px;margin:auto;padding:90px 24px}
+.section-title{font-size:32px;margin:0 0 12px;letter-spacing:-1px}.sub{color:#999;margin-bottom:40px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:45px}.card{background:#17171b;border:1px solid #2a2a30;padding:30px;border-radius:10px}
+.card h3{margin-top:0;color:#d8bb7b}.card p{color:#bbb;line-height:1.9}
+.price{font-size:48px;font-weight:800;color:#d8bb7b;margin:10px 0}.unit{font-size:18px;color:#aaa}
+.info{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.info .card{text-align:center}
+footer{text-align:center;border-top:1px solid #29292e;padding:35px;color:#777;font-size:13px}
+@media(max-width:700px){nav a{display:none}.about,.info{grid-template-columns:1fr}.hero{min-height:650px}section{padding:70px 20px}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">소풍 노래광장<span>OFFICIAL WEBSITE</span></div>
+<div><a href="#about">매장소개</a><a href="#guide">이용안내</a><a href="#contact">문의</a></div>
+</nav>
+</header>
+
+<main>
+<section class="hero">
+<div>
+<div class="badge">SOPUNG NORAEBANG</div>
+<h1>소풍 노래광장</h1>
+<p>음악과 함께 편안하게 즐기는<br>특별한 공간</p>
+<a class="btn" href="#guide">이용안내 보기</a>
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">매장소개</h2>
+<p class="sub">즐거운 음악과 편안한 분위기가 함께하는 공간</p>
+<div class="about">
+<div class="card"><h3>특별한 시간</h3><p>품격 있는 분위기와 편안한 공간에서 음악과 함께 여유로운 시간을 즐겨보세요.</p></div>
+<div class="card"><h3>편안한 공간</h3><p>편안한 분위기 속에서 음악을 즐기며 소중한 사람들과 특별한 시간을 보내실 수 있습니다.</p></div>
+</div>
+</section>
+
+<section id="guide">
+<h2 class="section-title">이용안내</h2>
+<p class="sub">간편하게 확인하세요</p>
+<div class="card" style="text-align:center">
+<div class="price">10만원 <span class="unit">/ 시간</span></div><p style="margin-top:-4px;color:#d8bb7b;font-weight:700">룸 이용요금</p>
+<p>쾌적한 룸에서 음악과 함께 즐거운 시간을 보내실 수 있습니다. 자세한 이용 조건은 매장으로 문의해주세요.</p>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">문의</h2>
+<p class="sub">예약 및 자세한 이용 문의는 매장으로 연락해주세요.</p><p style="text-align:center;margin:0 0 28px"><a class="btn" href="tel:01058960265">📞 010-5896-0265 전화하기</a></p>
+<div class="info">
+<div class="card"><h3>예약</h3><p><a href="tel:01058960265" style="color:#d8bb7b;text-decoration:none;font-weight:700">010-5896-0265</a></p></div>
+<div class="card"><h3>이용시간</h3><p>오후 5:30 ~ 오전 5:00</p></div>
+<div class="card"><h3>위치</h3>
+<p><a href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%8B%9C%ED%9D%A5%EC%8B%9C%20%EC%A0%95%EC%99%95%EB%8F%99%201855-5" target="_blank" rel="noopener" style="color:#d8bb7b;text-decoration:none;font-weight:700">
+경기도 시흥시 정왕동 1855-5<br>3층<br><span style="font-size:13px">📍 위치를 누르면 네이버지도가 열립니다</span>
+</a></p></div>
+</div>
+</section>
+</main>
+<footer>
+<div style="margin-bottom:12px;color:#bbb;font-weight:700">청소년 출입·고용 금지 업소입니다.</div>
+<div>© 2026 소풍 노래광장. All rights reserved.</div>
+</footer>
+</body>
+</html>
